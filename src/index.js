@@ -10,7 +10,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 
 const Root = () => 
-  <Router>
+  <Router basename="/course-react-search-app/">
     <div>
       <Navbar>
         <Navbar.Brand>
