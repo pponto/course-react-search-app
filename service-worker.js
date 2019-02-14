@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/course-react-search-app.git/precache-manifest.93bd715c0625ef22afc5f2f7cf251497.js"
+  "/course-react-search-app/precache-manifest.9a5d44f37afa08fda55aad5310faad48.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/course-react-search-app.git/index.html", {
+workbox.routing.registerNavigationRoute("/course-react-search-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
